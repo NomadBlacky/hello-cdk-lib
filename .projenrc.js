@@ -44,7 +44,7 @@ const project = new AwsCdkConstructLibrary({
   // codeCovTokenSecret: undefined,                                            /* Define the secret name for a specified https://codecov.io/ token A secret is required to send coverage for private repositories. */
   // copyrightOwner: undefined,                                                /* License copyright owner. */
   // copyrightPeriod: undefined,                                               /* The copyright years to put in the LICENSE file. */
-  // defaultReleaseBranch: 'master',                                           /* The name of the main release branch. */
+  defaultReleaseBranch: 'master',
   // dependabot: true,                                                         /* Include dependabot configuration. */
   // dependabotOptions: undefined,                                             /* Options for dependabot. */
   // deps: [],                                                                 /* Runtime dependencies of this module. */
