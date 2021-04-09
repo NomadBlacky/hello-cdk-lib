@@ -2,7 +2,7 @@
   "dependencies": [
     {
       "name": "@aws-cdk/assert",
-      "version": "^1.79.0",
+      "version": "^1.97.0",
       "type": "build"
     },
     {
@@ -87,12 +87,12 @@
     },
     {
       "name": "@aws-cdk/aws-s3",
-      "version": "^1.79.0",
+      "version": "^1.97.0",
       "type": "peer"
     },
     {
       "name": "@aws-cdk/core",
-      "version": "^1.79.0",
+      "version": "^1.97.0",
       "type": "peer"
     },
     {
@@ -102,12 +102,12 @@
     },
     {
       "name": "@aws-cdk/aws-s3",
-      "version": "^1.79.0",
+      "version": "^1.97.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/core",
-      "version": "^1.79.0",
+      "version": "^1.97.0",
       "type": "runtime"
     }
   ],
