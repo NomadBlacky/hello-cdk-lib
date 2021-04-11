@@ -1,7 +1,8 @@
+const { NpmAccess } = require('projen');
 const { AwsCdkConstructLibrary } = require('projen');
 
 const project = new AwsCdkConstructLibrary({
-  authorAddress: 'tkadowaki.dev.blackey@gmail.com',
+  authorAddress: 'nomadblacky@gmail.com',
   authorName: 'NomadBlacky',
   cdkVersion: '1.97.0',
   name: '@nomadblacky/hello-cdk-lib',
@@ -57,6 +58,7 @@ const project = new AwsCdkConstructLibrary({
   // mergifyAutoMergeLabel: 'auto-merge',                                      /* Automatically merge PRs that build successfully and have this label. */
   // mergifyOptions: undefined,                                                /* Options for mergify. */
   // minNodeVersion: undefined,                                                /* Minimum Node.js version to require via package.json `engines` (inclusive). */
+  npmAccess: NpmAccess.PUBLIC,
   // npmDistTag: 'latest',                                                     /* The dist-tag to use when releasing to npm. */
   // npmignore: undefined,                                                     /* Additional entries to .npmignore. */
   // npmignoreEnabled: true,                                                   /* Defines an .npmignore file. Normally this is only needed for libraries that are packaged as tarballs. */
