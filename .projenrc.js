@@ -1,7 +1,7 @@
 const { AwsCdkConstructLibrary } = require('projen');
 
 const project = new AwsCdkConstructLibrary({
-  authorAddress: 'tkadowaki.dev.blackey@gmail.com',
+  authorAddress: 'nomadblacky@gmail.com',
   authorName: 'NomadBlacky',
   cdkVersion: '1.97.0',
   name: '@nomadblacky/hello-cdk-lib',
