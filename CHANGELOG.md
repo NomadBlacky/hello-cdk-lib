@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.99](https://github.com/NomadBlacky/hello-cdk-lib/compare/v0.0.98...v0.0.99) (2021-06-29)
+
 ### [0.0.98](https://github.com/NomadBlacky/hello-cdk-lib/compare/v0.0.97...v0.0.98) (2021-06-28)
 
 ### [0.0.97](https://github.com/NomadBlacky/hello-cdk-lib/compare/v0.0.96...v0.0.97) (2021-06-25)
